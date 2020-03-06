@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:550px) {
+    .bg-one {
+        background-image: url('1.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 550px;
+        height: 500px;
+        position: relative;
+        clip-path: polygon(0 1%, 100% 0%, 99% 86%, 0% 100%);
+    }
+    .bg-one div {
+        background-color: white;
+        width: 480px;
+        height: 400px;
+        border-radius: 10%;
+        position: absolute;
+        left: 5%;
+        top: 50px;
+        overflow: hidden;
+    }
+    .bg-one div h3 {
+        color: red;
+        padding-top: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .bg-one div h3+p {
+        color: blue;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .p2-bg-one {
+        color: lime;
+        margin-left: 70px;
+        margin-top: 30px;
+        width: 400px;
+    }
+    .p2-bg-one+button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two {
+        background-color: lime;
+        width: 550px;
+    }
+    .bg-two h2 {
+        color: blue;
+        margin-left: 30px;
+    }
+    .bg-two p {
+        color: white;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .bg-two button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two div {
+        background-image: url(2.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+    .bg-three {
+        background-image: url(3.jpg);
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+        height: 500px;
+        width: 550px;
+        position: relative;
+    }
+    .bg-three div {
+        background-color: purple;
+        position: absolute;
+        top: 80px;
+        margin-left: 30px;
+        width: 480px;
+        height: 350px;
+        border-radius: 10px;
+    }
+    .bg-three h1 {
+        text-align: center;
+        color: pink;
+        margin-top: 20px;
+    }
+    .bg-three p {
+        margin: 50px;
+    }
+    .bg-four form input {
+        display: block;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        margin: 0 auto;
+    }
+    .bg-four form textarea {
+        display: block;
+        margin: 0 auto;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        resize: none;
+    }
+    .conimg {
+        width: 550px;
+    }
+    .conimg div {
+        background-image: url(4.jpg);
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width:1024px) {
+    .bg-one {
+        background-image: url('1.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 1024px;
+        height: 500px;
+        position: relative;
+        clip-path: polygon(0 1%, 100% 0%, 99% 86%, 0% 100%);
+    }
+    .bg-one div {
+        background-color: white;
+        width: 480px;
+        height: 400px;
+        border-radius: 50%;
+        position: absolute;
+        left: 300px;
+        top: 50px;
+        overflow: hidden;
+    }
+    .bg-one div h3 {
+        color: red;
+        padding-top: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .bg-one div h3+p {
+        color: blue;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .p2-bg-one {
+        color: lime;
+        margin-left: 70px;
+        margin-top: 30px;
+        width: 400px;
+    }
+    .p2-bg-one+button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two {
+        background-color: lime;
+        width: 100%;
+    }
+    .bg-two h2 {
+        color: blue;
+        margin-left: 300px;
+    }
+    .bg-two p {
+        color: white;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+    .bg-two button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two div {
+        background-image: url(2.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+    .bg-three {
+        background-image: url(3.jpg);
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+        height: 500px;
+        width: 1024px;
+        position: relative;
+    }
+    .bg-three div {
+        background-color: purple;
+        position: absolute;
+        top: 80px;
+        left: 200px;
+        margin-left: 30px;
+        width: 480px;
+        height: 350px;
+        border-radius: 10px;
+    }
+    .bg-three h1 {
+        text-align: center;
+        color: pink;
+        margin-top: 20px;
+    }
+    .bg-three p {
+        margin: 50px;
+    }
+    .bg-four form input {
+        display: block;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        margin: 0 auto;
+    }
+    .bg-four form textarea {
+        display: block;
+        margin: 0 auto;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        resize: none;
+    }
+    .conimg {
+        width: 100%;
+    }
+    .conimg div {
+        background-image: url(4.jpg);
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+}
+
+
+/* my full page/////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width:1024px) {
+    .bg-one {
+        background-image: url('1.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        clip-path: polygon(0 1%, 100% 0%, 99% 86%, 0% 100%);
+    }
+    .bg-one div {
+        background-color: white;
+        width: 480px;
+        height: 400px;
+        border-radius: 50%;
+        position: absolute;
+        left: 300px;
+        top: 50px;
+        overflow: hidden;
+    }
+    .bg-one div h3 {
+        color: red;
+        padding-top: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .bg-one div h3+p {
+        color: blue;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .p2-bg-one {
+        color: lime;
+        margin-left: 70px;
+        margin-top: 30px;
+        width: 400px;
+    }
+    .p2-bg-one+button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two {
+        background-color: lime;
+        width: 100%;
+    }
+    .bg-two div:first-child {
+        float: left;
+        margin-top: 30px;
+    }
+    .bg-two div h2 {
+        color: blue;
+        margin-left: 50px;
+    }
+    .bg-two p {
+        color: white;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .bg-two button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        margin-top: 20px;
+    }
+    .bg-two div:last-child {
+        background-image: url(2.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+        direction: rtl;
+    }
+    .bg-three {
+        background-image: url(3.jpg);
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+    .bg-three div {
+        background-color: purple;
+        position: absolute;
+        top: 80px;
+        left: 200px;
+        margin-left: 30px;
+        width: 480px;
+        height: 350px;
+        border-radius: 10px;
+    }
+    .bg-three h1 {
+        text-align: center;
+        color: pink;
+        margin-top: 20px;
+    }
+    .bg-three p {
+        margin: 50px;
+    }
+    .bg-four div {
+        float: left;
+    }
+    .bg-four form {
+        width: 500px;
+        margin-top: 40px;
+    }
+    .bg-four form input {
+        display: block;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        margin: 0 auto;
+    }
+    .bg-four form textarea {
+        display: block;
+        margin: 0 auto;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: red;
+        resize: none;
+    }
+    .conimg {
+        width: 500px;
+    }
+    .conimg div {
+        background-image: url(4.jpg);
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+}
